@@ -1,0 +1,15 @@
+.main{
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+    background-color: palevioletred;
+    text-align: center;
+    padding-top: 150px;
+}
+.movie-list {
+    margin: 10px;
+    padding-top: 2rem;
+}
+.col-gutter {
+    padding-bottom: 2rem;
+}
