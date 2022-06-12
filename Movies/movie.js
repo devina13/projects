@@ -13,7 +13,6 @@ async function findMovie() {
     let count = apiResponse.Search.length;
 
     let data1 = "";
-    
 
     apiResponse.Search.map((value) => {
       console.log(value);
