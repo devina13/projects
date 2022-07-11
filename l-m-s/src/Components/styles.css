@@ -1,0 +1,184 @@
+.blackBackground{
+    background-image: url("../../public/Assets/IMG_0534@2x.png");
+    height:625px;
+    width: 100%;
+    background-size: cover;
+}
+.shadedBuld{
+    background-image: url(../../public/Assets/LoginBackground1.png);
+    opacity:0.51;
+    height:625px;
+    width: 100%;
+    background-size: cover;
+}
+.brightBuld{
+    background-image: url(../../public/Assets/LoginMain1.png);
+    height:420px;
+    width: 60%;
+    background-size: cover;
+    border-radius: 10px;
+    position: absolute;
+    top: 100px;
+    left: 20%;
+    display: flex;
+    direction: rtl;
+}
+.greyArea{
+    background-color:#808083;
+border: 1px solid black;
+width: 325px;}
+
+/* Admin Header  */
+
+.globalListHeader{
+    display: flex;
+    margin-top: 1px;
+    width: 100%;
+}
+.imagediv{
+    background-image: url(../../public/Assets/logo1@2x.png);
+    height: 60px;
+    width: 190px;
+    margin-top: 15px;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}   
+.headerSearch{
+    height: 40px;
+    width: 500px;
+    margin-left: 90px;
+}
+.logout{
+    height: 40px;
+    width: 80px;
+    margin-left: 300px; 
+} 
+/* Admin SIDEBAR */
+.sideBar{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    border-radius: 10px;
+    margin-top: 40px;
+
+}
+.side-btn {
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    background-size: 75%;
+    background-position-x: center ;
+    border: none;
+    background-repeat: no-repeat;
+}
+.batch{
+    background-image: url('../../public/Assets/group\ \(1\)@2x.png');
+    /* background-color: #086288 !important */
+}
+.mentor{
+     background-image: url('../../public/Assets/team\ \(4\)@2x.png');
+     /* background-color: #086288 !important */
+}
+.request{
+    background-image: url('../../public/Assets/add-user\ \(2\)@2x.png');
+    /* background-color: #086288 !important */
+}
+.sidebar-btn-text{
+    padding-top: 45px;
+    color: #086288;
+}
+
+/* Tables in batchList */
+.localsearch{
+    display: flex;
+    z-index: -1;
+    background-color: white;
+}
+.search{
+    float: right;
+    width: 350px;
+    margin-left: 50px;
+    margin-top: 0px;
+    border: 1px;
+}
+#add-b{
+    /* height: 25px !important; */
+    color: white !important;
+    /* width: 124px; */
+    background-color: #FAA81D !important;
+    border-radius: 8px;
+    /* text-align: center; */
+}
+
+/* MENTOR HEADER NavBar */
+
+.mentor-head-search{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    margin-top: 1px;
+}
+.logo-header{
+    background-image: url(../../public/Assets/logo1@2x.png);
+    height: 60px;
+    width: 190px;
+    margin-top: 15px;
+    background-size: 70%;
+    background-repeat: no-repeat;
+
+}
+.mentor-global-search{
+    /* border: 1px solid black; */
+    height: 40px;
+    width: 500px;
+    margin-left: 150px;
+
+}
+.user{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1px;
+    height: 40px;
+    width: 45px;
+    margin-left: 120px;
+
+}
+.avatar{
+    margin-top: 1px;
+    margin-left:5px ;
+}
+.user-name{
+    margin-left: 5px;
+}
+.user-dropdown{
+    margin-top: -10px;
+}
+
+/* Mentor SideBar */
+.dashboard{
+    background-image: url(../../public/Assets/dashboard\ \(3\)@2x.png);
+}
+.mentor-batch{
+    background-image: url(../../public/Assets/group\ \(1\)@2x.png);
+}
+
+/* Mentor Module Table */
+.table-header{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    margin-top: 60px;
+    background-color:white;
+
+}
+.mentor-mod-local{
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    margin-top: 50px;
+}
+

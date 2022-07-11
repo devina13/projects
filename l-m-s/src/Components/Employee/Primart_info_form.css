@@ -1,0 +1,12 @@
+.ant-form-item-label>label{
+    color: #707070;
+}
+.form{
+    width: 60%;
+    margin-left: 20%;
+}
+.pformb{
+    cursor: pointer;
+    color: #086288;
+    font-size: 15px;
+}
