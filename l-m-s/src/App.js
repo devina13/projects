@@ -15,17 +15,18 @@ import { SideBar } from "./Components/Admin/sidebar";
 import { Content } from './Components/Admin/Content';
 import { Header} from './Components/Admin/Header'
 import MentorEmployeeList from './Components/Mentor/MentorEmployeeList';
+import Primary_Info from './Components/Employee/Primary_Info';
 function App() {
   return (
     <div>
-       <BrowserRouter>
+       {/* <BrowserRouter>
       <NavBar/>
       <Routes>
           <Route path="/batchlist" element={<BatchList />} />
           <Route path="/mentorlist" element={<MentorList />} />
           <Route path="/requests" element={<Requests />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
        {/* <BrowserRouter>
       <MentorHeader/>
       <Routes>
@@ -37,7 +38,7 @@ function App() {
       </Routes>
       </BrowserRouter> */}
 
-      {/* <Primary_Info/> */}
+      <Primary_Info/>
 
     </div>
     
